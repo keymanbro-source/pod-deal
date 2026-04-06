@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="팟딜(Poddeal) — 선결제로 버려지는 시간을 ‘팟’ 단위로 나누어 거래하는 플랫폼. 성남에서 시작해 지역 소비를 다시 연결합니다."
+    />
+    <title>Poddeal 팟딜 — 유휴 이용권 거래</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#" class="logo" aria-label="Poddeal 팟딜 홈">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="logo-text">
+            <span class="logo-en">poddeal</span>
+            <span class="logo-ko">팟딜</span>
+          </span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="메뉴 열기"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+          <ul class="nav-list">
+            <li><a href="#about">소개</a></li>
+            <li><a href="#seongnam">성남·전략</a></li>
+            <li><a href="#flow">거래 구조</a></li>
+            <li><a href="#benefits">혜택</a></li>
+            <li><a href="#ai">AI</a></li>
+            <li><a href="#contact">문의</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--split" aria-labelledby="hero-title">
+        <div class="hero-split-inner container">
+          <div class="hero-content">
+            <p class="hero-eyebrow">선결제 · 유휴시간 거래 플랫폼</p>
+            <h1 id="hero-title" class="hero-title">
+              Poddeal <span class="hero-title-ko">팟딜</span>
+            </h1>
+            <p class="hero-tagline hero-tagline--emph">
+              버려지던 시간이 <strong>수익</strong>이 되는 구조입니다.
+            </p>
+            <p class="hero-lead">
+              헬스장·골프연습장처럼 <strong>선결제</strong>로 쓰는 서비스는 이용권의
+              약 <strong>20~30%</strong>가 사용되지 못하고 사라집니다. 소비자는
+              돈을 잃고, 사업자는 빈 시간을 그대로 두게 됩니다. 팟딜은 그 시간을
+              <span class="hero-em">‘팟(Pod)’</span> 단위로 나누어
+              <strong>못 가는 날은 판매</strong>하고,
+              <strong>다른 사람은 할인된 가격</strong>으로 이용할 수 있게 합니다.
+            </p>
+            <div class="hero-actions">
+              <a href="#about" class="btn btn-primary">문제와 해결책</a>
+              <a
+                href="https://www.poddeal.net"
+                class="btn btn-outline"
+                target="_blank"
+                rel="noopener noreferrer"
+                >poddeal.net</a
+              >
+            </div>
+          </div>
+          <figure class="hero-visual">
+            <img
+              src="images/hero-poddeal.png"
+              alt="팟딜: 이용자와 판매자를 잇는 유휴 이용권 거래 서비스 안내 그래픽"
+              width="800"
+              height="900"
+              fetchpriority="high"
+              class="hero-promo-img"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section-title">팟딜이란</h2>
+          <p class="section-lead definition">
+            팟딜(Poddeal)은 <strong>버려지는 시간</strong>을
+            <strong>‘팟(Pod)’ 단위</strong>로 나누어 거래할 수 있게 만든
+            플랫폼입니다. <strong>못 가는 날은 판매</strong>하고,
+            <strong>다른 사람은 할인된 가격</strong>으로 이용합니다.
+          </p>
+          <p class="pull-quote">
+            한 줄로 말하면, <strong>버려지던 시간이 수익이 되는 구조</strong>입니다.
+          </p>
+          <h3 class="subsection-title subsection-title--inline">차별성</h3>
+          <p class="section-intro">
+            기존에는 <strong>이용권 전체</strong>를 넘겨야 해서 거래가 쉽지
+            않았습니다. 팟딜은 <strong>하루·한 시간</strong>처럼 잘게 나누어
+            거래할 수 있어, <strong>예전에는 팔 수 없던 시간까지</strong> 거래가
+            가능합니다.
+          </p>
+          <div class="pain-grid" aria-label="팟딜이 해결하는 상황">
+            <blockquote class="pain-card">
+              <p>
+                “헬스장이나 골프연습장, 결제해 놓고 끝까지 다 써보신 적
+                있으신가요?”
+              </p>
+              <span class="pain-card-label">소비자 입장</span>
+            </blockquote>
+            <blockquote class="pain-card">
+              <p>
+                “소비자는 돈을 잃고, 사업자는 빈 시간을 그대로 두게 됩니다.”
+              </p>
+              <span class="pain-card-label">시장 구조</span>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="seongnam" class="section seongnam">
+        <div class="container">
+          <h2 class="section-title">왜 성남인가</h2>
+          <p class="section-intro">
+            성남은 <strong>분당·판교</strong>를 중심으로 헬스·골프·뷰티 같은
+            <strong>생활 서비스 업종</strong>이 많이 모여 있습니다. 이 업종들은
+            대부분 <strong>선결제 구조</strong>라 사용하지 못하는 시간이 계속
+            발생합니다. 특히 <strong>직장인 중심 지역</strong>이라 일정 변화로
+            유휴 시간이 더 많이 생깁니다.
+          </p>
+          <p class="pull-quote pull-quote--accent">
+            성남은 유휴 자원이 많이 발생하는 지역이고,
+            <strong>팟딜이 가장 잘 작동할 수 있는 도시</strong>입니다.
+          </p>
+
+          <h3 class="subsection-title">성장 전략</h3>
+          <p class="section-intro section-intro--tight">
+            우선 <strong>성남 지역</strong>에서 시작해 헬스·골프·뷰티 업종 중심으로
+            시장을 만든 뒤, <strong>이후 수도권</strong>으로 확장할 계획입니다.
+            장기적으로는 <strong>데이터</strong>를 기반으로 유휴 시간을 예측하고,
+            더 잘 팔리도록 만드는 플랫폼으로 발전시킵니다.
+          </p>
+        </div>
+      </section>
+
+      <section id="flow" class="section flow">
+        <div class="container">
+          <h2 class="section-title">사업 구조 · 거래 흐름</h2>
+          <p class="section-intro">
+            구조는 단순합니다. 그리고 이 거래의 수익이
+            <strong>판매자에게도 쉐어</strong>됩니다.
+          </p>
+          <ul class="biz-pillars">
+            <li>
+              <span class="biz-pillar-label">사업자</span>
+              <span class="biz-pillar-text">유휴 시간 등록</span>
+            </li>
+            <li>
+              <span class="biz-pillar-label">이용자</span>
+              <span class="biz-pillar-text">할인 구매</span>
+            </li>
+            <li>
+              <span class="biz-pillar-label">플랫폼</span>
+              <span class="biz-pillar-text">거래 중개</span>
+            </li>
+          </ul>
+          <p class="section-intro section-intro--tight">
+            <strong>기존에는 0원이던 시간</strong>이
+            <strong>추가 매출</strong>로 바뀝니다. 팟딜을 통해 유입된 이용자는
+            <strong>신규 고객</strong>으로 이어질 수 있습니다. 사업자는
+            <strong>매출과 고객을 동시에</strong> 확보할 수 있어 참여 유인이
+            충분합니다.
+          </p>
+          <h3 class="subsection-title">시간 단위 ‘팟’으로 이어지는 흐름</h3>
+          <ol class="flow-steps flow-steps--compact">
+            <li class="flow-step">
+              <span class="flow-step-num">1</span>
+              <div class="flow-step-body">
+                <h3 class="flow-step-title">유휴 발생 · 등록</h3>
+                <p>
+                  사업자 또는 회원이 쓰지 않는 시간·회차를 ‘팟’으로 등록합니다.
+                </p>
+              </div>
+            </li>
+            <li class="flow-step">
+              <span class="flow-step-num">2</span>
+              <div class="flow-step-body">
+                <h3 class="flow-step-title">팟딜이 중개</h3>
+                <p>
+                  검증·결제·이용 연계를 플랫폼이 맡고, 수익을 구조에 맞게
+                  배분합니다.
+                </p>
+              </div>
+            </li>
+            <li class="flow-step">
+              <span class="flow-step-num">3</span>
+              <div class="flow-step-body">
+                <h3 class="flow-step-title">지역 소비자가 할인 구매</h3>
+                <p>
+                  필요한 슬롯만 골라 이용하고, 매장에는 새로운 방문이
+                  연결됩니다.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="benefits" class="section features">
+        <div class="container">
+          <h2 class="section-title">누구에게 어떤 혜택이 있나요?</h2>
+          <p class="section-intro">
+            발표에서 정리한 것처럼, 이용자는 부담을 줄이고 판매자는 빈 시간을
+            매출·고객으로 바꿀 수 있습니다.
+          </p>
+
+          <div class="feature-group">
+            <h3 class="feature-group-title">
+              <span class="badge badge-user">이용자</span> Cost Down
+            </h3>
+            <ul class="feature-grid">
+              <li class="feature-card feature-card--user">
+                <span class="feature-badge">사용자</span>
+                <h4 class="feature-title">못 가는 날은 판매</h4>
+                <p class="feature-desc">
+                  쓰지 못하는 날·시간을 ‘팟’으로 나누어 판매해 현금으로
+                  되돌립니다.
+                </p>
+              </li>
+              <li class="feature-card feature-card--user">
+                <span class="feature-badge">사용자</span>
+                <h4 class="feature-title">필요한 만큼만 할인 구매</h4>
+                <p class="feature-desc">
+                  전체 이용권이 아니라 슬롯 단위로, 낮은 부담으로 서비스를
+                  이용합니다.
+                </p>
+              </li>
+              <li class="feature-card feature-card--user">
+                <span class="feature-badge">사용자</span>
+                <h4 class="feature-title">안전한 거래</h4>
+                <p class="feature-desc">
+                  QR·NFC 등 인증으로 부정 사용을 줄이고 거래를 보호합니다.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="feature-group">
+            <h3 class="feature-group-title">
+              <span class="badge badge-seller">판매자</span> Profit Up
+            </h3>
+            <ul class="feature-grid">
+              <li class="feature-card feature-card--seller">
+                <span class="feature-badge feature-badge--seller">판매자</span>
+                <h4 class="feature-title">비는 시간이 추가 매출로</h4>
+                <p class="feature-desc">
+                  한산한 시간대 유휴 슬롯을 판매하고, 거래 수익이 판매자에게도
+                  쉐어됩니다.
+                </p>
+              </li>
+              <li class="feature-card feature-card--seller">
+                <span class="feature-badge feature-badge--seller">판매자</span>
+                <h4 class="feature-title">신규 고객으로 이어지는 유입</h4>
+                <p class="feature-desc">
+                  팟딜을 통해 들어온 이용자가 매장의 새로운 고객으로 연결될 수
+                  있습니다.
+                </p>
+              </li>
+              <li class="feature-card feature-card--seller">
+                <span class="feature-badge feature-badge--seller">판매자</span>
+                <h4 class="feature-title">선결제로 노쇼 부담 완화</h4>
+                <p class="feature-desc">
+                  선결제·예약 구조로 운영 효율을 높이고 빈자리 손실을 줄입니다.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai" class="section ai-section">
+        <div class="container">
+          <h2 class="section-title">AI로 더 똑똑한 팟딜</h2>
+          <p class="section-intro">
+            단기적으로는 성남·수도권에서 거래를 늘리고, 장기적으로는
+            <strong>데이터 기반</strong>으로 유휴 시간을 예측해 더 잘 팔리도록
+            만드는 방향과 맞닿아 있습니다. 미사용 예측·매칭부터 가격·운영·신뢰까지
+            AI가 이용자·판매자·플랫폼을 지원합니다.
+          </p>
+
+          <h3 class="subsection-title">이용자 관점</h3>
+          <ul class="feature-grid">
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">미사용 예측 · 리쉐어 제안</h4>
+              <p class="feature-desc">
+                과거 이용 패턴을 분석해 높은 확률로 쓰이지 않을 시간대를
+                짚어내고, ‘팟’ 등록으로 수익을 낼 수 있도록 알림을 보냅니다.
+              </p>
+            </li>
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">초개인화 매칭 엔진</h4>
+              <p class="feature-desc">
+                생활 반경·가격 선호 등을 학습해, 나에게 맞는 ‘팟’을 추천하고
+                구매로 바로 이어지게 합니다.
+              </p>
+            </li>
+          </ul>
+
+          <h3 class="subsection-title">판매자 관점</h3>
+          <ul class="feature-grid feature-grid--3">
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">다이내믹 프라이싱</h4>
+              <p class="feature-desc">
+                날씨·요일 등 실시간 변수를 반영해 최적 할인가를 제안하고
+                공실률을 낮춥니다.
+              </p>
+            </li>
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">스마트 ‘팟’ 생성 도구</h4>
+              <p class="feature-desc">
+                사진·URL만으로 정보를 파악하고, 상품 설명과 태그를 자동 생성해
+                등록을 단순화합니다.
+              </p>
+            </li>
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">수요 예측 기반 운영 최적화</h4>
+              <p class="feature-desc">
+                주간·월간 수요를 예측해 유휴가 예상되는 시간대에 ‘팟’ 등록을
+                미리 준비하도록 안내합니다.
+              </p>
+            </li>
+          </ul>
+
+          <h3 class="subsection-title">플랫폼 · 신뢰</h3>
+          <ul class="feature-grid feature-grid--3">
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">신뢰 지수 · FDS</h4>
+              <p class="feature-desc">
+                거래 이력을 학습해 신뢰 점수를 부여하고, 반복 노쇼 등 이상
+                행위를 탐지·차단합니다.
+              </p>
+            </li>
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">AI 정산 · 분쟁 조정</h4>
+              <p class="feature-desc">
+                데이터 검증과 리뷰·채팅 맥락을 분석해 환불·중재안을 제안,
+                갈등 해소를 돕습니다.
+              </p>
+            </li>
+            <li class="feature-card feature-card--ai">
+              <span class="feature-badge feature-badge--ai">AI</span>
+              <h4 class="feature-title">상권 분석 · 광고 모듈</h4>
+              <p class="feature-desc">
+                지역·시간대별 소비 트렌드를 분석해, 어떤 ‘팟’을 더 내면 좋을지
+                데이터 기반으로 제안합니다.
+              </p>
+            </li>
+          </ul>
+
+          <div class="roadmap">
+            <h3 class="subsection-title roadmap-title">AI 로드맵 (요약)</h3>
+            <ul class="roadmap-list">
+              <li>
+                <strong>2026</strong> 데이터 확보·자동화 — 판매자 등록 단순화(OCR·NLP
+                등), AI 데이터 파이프라인으로 거래·유휴 패턴 축적
+              </li>
+              <li>
+                <strong>2027</strong> 매칭·예측 고도화 — 추천·미사용 예측 알림으로
+                거래 회전율 극대화 (발표의 ‘유휴 예측’ 단계와 연계)
+              </li>
+              <li>
+                <strong>2028+</strong> 시장 확장·수익화 — 다이내믹 프라이싱,
+                B2B 상권 리포트 등 부가 가치
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta">
+        <div class="container cta-inner">
+          <h2 class="section-title">지역 소비를 다시 잇는 팟딜</h2>
+          <p class="cta-text">
+            팟딜은 버려지는 시간을 수익으로 바꾸고,
+            <strong>지역 내 소비를 다시 연결</strong>하는 플랫폼입니다.
+          </p>
+          <p class="cta-text cta-text--punch">
+            성남에서 버려지는 시간을, <strong>성남 안에서 돈으로</strong>
+            바꾸겠습니다.
+          </p>
+          <p class="cta-text cta-text--muted">
+            앱·웹에서 팟딜을 만나 보시고, 도입·제휴 문의는 아래로 연락 주세요.
+          </p>
+          <p class="cta-oneline">
+            (요약) 성남의 유휴 시간을 쪼개 거래하고, 사업자는 추가 매출과 신규
+            고객을 얻으며 지역 내 소비를 다시 연결합니다.
+          </p>
+          <div class="cta-actions">
+            <a
+              href="https://www.poddeal.net"
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >www.poddeal.net</a
+            >
+            <a href="mailto:gtmk@gtmk.co.kr" class="btn btn-outline"
+              >gtmk@gtmk.co.kr</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">Poddeal 팟딜</span>
+          <p class="footer-tag">
+            (주)지티엠케이 · GTMK ·
+            <a
+              href="https://www.poddeal.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              >www.poddeal.net</a
+            >
+          </p>
+        </div>
+        <address class="footer-address">
+          <p><strong>(주)지티엠케이 (GTMK)</strong></p>
+          <p>대표 안병준 | 사업자번호 476-86-03305</p>
+          <p>
+            경기 성남시 분당구 성남대로331번길 8, 킨스타워 19층(정자동)
+          </p>
+          <p>
+            고객문의
+            <a href="mailto:gtmk@gtmk.co.kr">gtmk@gtmk.co.kr</a>
+          </p>
+        </address>
+        <p class="footer-copy">&copy; GTMK. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
